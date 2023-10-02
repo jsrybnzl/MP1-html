@@ -6,8 +6,18 @@ body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: rgb(var(--bs-tertiary-color-rgb));
+  font-family: 'Neuton', serif;
 }
 
+
+.nav-link {
+  display: block;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+  color: white
+
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -24,9 +34,13 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 38rem;
 }
 
+.text-muted {
+  --bs-text-opacity:.5;
+  color: #5F9EA0 !important;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -55,6 +69,14 @@ body {
 /* rtl:begin:remove */
 .featurette-heading {
   letter-spacing: -.05rem;
+  margin-left: 10px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-left: 10px;
+  font-family: 'Neuton', serif;
 }
 
 /* rtl:end:remove */
