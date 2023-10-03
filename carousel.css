@@ -79,10 +79,6 @@ body {
   font-family: 'Neuton', serif;
 }
 
-Sub {
-  text-align: center;
-}
-
 .zoom {
   transition: transform .2s; /* Animation */
 }
