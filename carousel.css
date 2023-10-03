@@ -79,10 +79,26 @@ body {
   font-family: 'Neuton', serif;
 }
 
-/* rtl:end:remove */
+Sub {
+  text-align: center;
+}
 
-/* RESPONSIVE CSS
--------------------------------------------------- */
+.zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
