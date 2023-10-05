@@ -95,6 +95,12 @@ body {
   padding-left: 40px;
 }
 
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  justify-content: space-evenly;
+}
+
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
@@ -113,4 +119,14 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+  @media only screen and (max-width: 280px)
+  .h6 {
+    font-size: 10px;
+  }
+
+
+.h6 {
+  font-size: 13px;
 }
